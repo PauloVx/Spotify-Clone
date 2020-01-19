@@ -1,0 +1,44 @@
+
+@import '_variables.scss';
+
+/*Geral*/
+body
+{
+	background: $bg-body-config;
+	background-attachment: $body-background-attachment;
+}
+
+/*Navbar*/
+nav.bg-nav
+{
+	padding: $nav-padding;
+	background: $bg-nav-color;
+}
+
+.navbar-dark
+{
+	.navbar-nav
+	{
+		.nav-item
+		{
+			.nav-link
+			{
+				color: $nav-link-color;
+				&:hover
+				{
+					color: $nav-link-hover-color;
+				}
+			}
+		}
+	}
+	.separator /*Separador entre os botões "Baixar e Inscrever-se"*/
+	{
+		width: $nav-separator-width;
+		background: $nav-link-color;
+		margin: $nav-separator-margin;
+	}
+	.navbar-toggler
+	{
+		border-color: $nav-toggler-border-color;
+	}
+}

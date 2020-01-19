@@ -1,0 +1,18 @@
+/*Colors*/
+
+$bg-nav-color: rgba(0, 0, 0, 0.6);
+$nav-toggler-border-color: rgba(255, 255, 255, 0.2);
+$nav-link-color: white;
+$nav-link-hover-color: #1ED760;
+
+/*Body*/
+$body-background-attachment: fixed;
+
+$bg-body-config: url('../img/capa.png'),
+					url('../img/ruido.png'), 
+					linear-gradient(50deg, #ff4169, #7c26f8);
+
+/*Navbar related*/
+$nav-padding: 15px 0px;
+$nav-separator-width: 1px;
+$nav-separator-margin: 12px 10px;

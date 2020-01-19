@@ -1,0 +1,31 @@
+/*Colors*/
+/*Body*/
+/*Navbar related*/
+/*Geral*/
+body {
+  background: url("../img/capa.png"), url("../img/ruido.png"), linear-gradient(50deg, #ff4169, #7c26f8);
+  background-attachment: fixed;
+}
+
+/*Navbar*/
+nav.bg-nav {
+  padding: 15px 0px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-dark .navbar-nav .nav-item .nav-link {
+  color: white;
+}
+.navbar-dark .navbar-nav .nav-item .nav-link:hover {
+  color: #1ED760;
+}
+.navbar-dark .separator {
+  width: 1px;
+  background: white;
+  margin: 12px 10px;
+}
+.navbar-dark .navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+/*# sourceMappingURL=style.css.map */
