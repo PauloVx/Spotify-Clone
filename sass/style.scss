@@ -2,10 +2,82 @@
 @import '_variables.scss';
 
 /*Geral*/
+html, body, #home
+{
+	height: $home-elements-height;
+}
+
 body
 {
 	background: $bg-body-config;
 	background-attachment: $body-background-attachment;
+	font-family: $body-font-family;
+}
+
+.center /*Centraliza o texto da homepage*/
+{
+	text-align: center;
+}
+
+/*Tipografia*/
+h1
+{
+	font-weight: $home-font-weight;
+	letter-spacing: $home-letter-spacing;
+	margin-bottom: $home-mb;
+	color: $home-text-color;
+}
+
+
+/*Media queries*/
+//Extra small
+@media (max-width: 575.98px)
+{
+	.btn-custom
+	{
+		margin: $btn-custom-margin-xs-sm;
+	}
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px)
+{
+	h1
+	{
+		font-size: $media-sm-font-size;
+	}
+
+	.btn-custom
+	{
+		margin: $btn-custom-margin-xs-sm;
+	}
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px)
+{
+	h1
+	{
+		font-size: $media-md-font-size;
+	}
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px)
+{
+	h1
+	{
+		font-size: $media-lg-font-size;
+	}
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px)
+{
+	h1
+	{
+		font-size: $media-xl-font-size;
+	}
 }
 
 /*Navbar*/
@@ -40,5 +112,37 @@ nav.bg-nav
 	.navbar-toggler
 	{
 		border-color: $nav-toggler-border-color;
+	}
+}
+
+/*Buttons*/
+
+.btn-custom
+{
+	color: $btn-color;
+	border-radius: $btn-border-radius;
+	-webkit-border-radius: $btn-border-radius;
+	-moz-border-radius: $btn-border-radius;
+	text-transform: $btn-text-transform;
+	transition: $btn-transition;
+	padding: $btn-padding;
+}
+
+.btn-white
+{
+	border: $btn-white-border;
+	&:hover
+	{
+		background-color: $btn-white-bg-color;
+		color: $btn-white-text-color;
+	}
+}
+
+.btn-success
+{
+	&:hover
+	{
+		background: $btn-success-bg-color;
+		color: $btn-success-text-color;
 	}
 }

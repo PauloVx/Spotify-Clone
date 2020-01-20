@@ -1,5 +1,4 @@
 /*Colors*/
-
 $bg-nav-color: rgba(0, 0, 0, 0.6);
 $nav-toggler-border-color: rgba(255, 255, 255, 0.2);
 $nav-link-color: white;
@@ -7,6 +6,7 @@ $nav-link-hover-color: #1ED760;
 
 /*Body*/
 $body-background-attachment: fixed;
+$body-font-family: Helvetica, Arial, sans-serif;
 
 $bg-body-config: url('../img/capa.png'),
 					url('../img/ruido.png'), 
@@ -16,3 +16,35 @@ $bg-body-config: url('../img/capa.png'),
 $nav-padding: 15px 0px;
 $nav-separator-width: 1px;
 $nav-separator-margin: 12px 10px;
+
+/*Home*/
+$home-elements-height: 100%;
+$home-font-weight: 900;
+$home-letter-spacing: -0.05em;
+$home-mb: 50px;
+$home-text-color: white;
+
+/*Media queries*/
+$media-sm-font-size: 3em;
+$media-md-font-size: 4em;
+$media-lg-font-size: 5em;
+$media-xl-font-size: 6em;
+
+/*Buttons*/
+$btn-color: white;
+$btn-border-radius: 500px;
+
+/*.btn-custom*/
+$btn-text-transform: uppercase;
+$btn-transition: background 0.5s, color 0.5s;
+$btn-padding: 10px 20px;
+$btn-custom-margin-xs-sm: 10px 15px;
+
+/*.btn-white*/
+$btn-white-border: 2px solid white;
+$btn-white-bg-color: white;
+$btn-white-text-color: black;
+
+/*.btn-success*/
+$btn-success-bg-color: #1bbd4b;
+$btn-success-text-color: white;
