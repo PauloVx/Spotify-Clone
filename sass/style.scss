@@ -5,6 +5,7 @@
 html, body, #home
 {
 	height: $home-elements-height;
+	overflow-x: hidden;
 }
 
 body
@@ -26,6 +27,66 @@ h1
 	letter-spacing: $home-letter-spacing;
 	margin-bottom: $home-mb;
 	color: $home-text-color;
+}
+
+h2
+{
+	font-size: $albuns-h2-font-size;
+	font-weight: $albuns-font-weight;
+	letter-spacing: $albuns-letter-spacing;
+}
+
+h3
+{
+	font-size: $albuns-h3-font-size;
+	@extend h2;
+}
+
+/*Conteúdo Home*/
+#content
+{
+	background: $home-content-bg-color;
+	padding-top: $home-content-padding-top;
+	padding-bottom: $home-content-padding-bottom;
+
+	.albuns
+	{
+		padding: $albuns-padding;
+	}
+
+	h2, h3
+	{
+		color: $h2-h3-content-color;
+	}
+}
+
+#features
+{
+	padding-top: $home-features-padding-top;
+	padding-bottom: $home-features-padding-bottom;
+
+	h2
+	{
+		color: $h2-features-color;
+	}
+
+	h3
+	{
+		color: $h3-features-color;
+	}
+
+	p
+	{
+		color: $p-features-color;
+	}
+
+	.rotate
+	{
+		-ms-transform: $features-rotate-rotation; /*IE 9*/
+		-webkit-transform: $features-rotate-rotation; /*Chrome, Safari, Opera*/
+		transform: $features-rotate-rotation;
+		padding-left: $features-rotation-padding-left;
+	}
 }
 
 

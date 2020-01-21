@@ -24,6 +24,30 @@ $home-letter-spacing: -0.05em;
 $home-mb: 50px;
 $home-text-color: white;
 
+/*#Content*/
+$home-content-bg-color: white;
+$home-content-padding-top: 20px;
+$home-content-padding-bottom: 20px;
+
+/*Home Albuns*/
+
+$albuns-padding: 10px 0;
+$albuns-h2-font-size: 3em;
+$albuns-h3-font-size: 2em;
+$albuns-font-weight: 700;
+$albuns-letter-spacing: -0.04em;
+$h2-h3-content-color: #7c35f8; /*Cor dos h2 e h3 na section content*/
+
+/*#Features*/
+$h2-features-color: white; /*Cor dos h2 na section features*/
+$h3-features-color: #9bf0e1; /*Cor dos h3 na section features*/
+$p-features-color: white; /*Cor dos paragrafos na section features*/
+$features-rotate-rotation: rotate(30deg); /*Rotação da classe rotate*/
+$features-rotation-padding-left: 80px;
+
+$home-features-padding-top: $home-content-padding-top;
+$home-features-padding-bottom: $home-content-padding-bottom;
+
 /*Media queries*/
 $media-sm-font-size: 3em;
 $media-md-font-size: 4em;

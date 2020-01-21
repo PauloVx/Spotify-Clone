@@ -1,7 +1,16 @@
+@charset "UTF-8";
 /*Colors*/
 /*Body*/
 /*Navbar related*/
 /*Home*/
+/*#Content*/
+/*Home Albuns*/
+/*Cor dos h2 e h3 na section content*/
+/*#Features*/
+/*Cor dos h2 na section features*/
+/*Cor dos h3 na section features*/
+/*Cor dos paragrafos na section features*/
+/*Rotação da classe rotate*/
 /*Media queries*/
 /*Buttons*/
 /*.btn-custom*/
@@ -10,6 +19,7 @@
 /*Geral*/
 html, body, #home {
   height: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -28,6 +38,51 @@ h1 {
   letter-spacing: -0.05em;
   margin-bottom: 50px;
   color: white;
+}
+
+h2, h3 {
+  font-size: 3em;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+/*Conteúdo Home*/
+#content {
+  background: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#content .albuns {
+  padding: 10px 0;
+}
+#content h2, #content h3 {
+  color: #7c35f8;
+}
+
+#features {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#features h2, #features h3 {
+  color: white;
+}
+#features h3 {
+  color: #9bf0e1;
+}
+#features p {
+  color: white;
+}
+#features .rotate {
+  -ms-transform: rotate(30deg);
+  /*IE 9*/
+  -webkit-transform: rotate(30deg);
+  /*Chrome, Safari, Opera*/
+  transform: rotate(30deg);
+  padding-left: 80px;
 }
 
 /*Media queries*/
