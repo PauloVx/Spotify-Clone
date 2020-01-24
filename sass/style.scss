@@ -89,6 +89,44 @@ h3
 	}
 }
 
+/*Footer*/
+footer
+{
+	background: black;
+	padding: 50px 0 20px 0;
+	position: relative;
+
+	h4
+	{
+		color: #919496;
+		font-size: 0.8em;
+		text-transform: uppercase;
+	}
+
+	.navbar-nav
+	{
+		a
+		{
+			color: white;
+			font-size: 0.8em;
+			&:hover
+			{
+				color: #1ED760;
+			}
+		}
+	}
+
+	ul
+	{
+		list-style: none;
+		li
+		{
+			float: right;
+			padding: 0 7px;
+		}
+	}
+}
+
 
 /*Media queries*/
 //Extra small

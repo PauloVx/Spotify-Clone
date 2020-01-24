@@ -85,6 +85,32 @@ h3 {
   padding-left: 80px;
 }
 
+/*Footer*/
+footer {
+  background: black;
+  padding: 50px 0 20px 0;
+  position: relative;
+}
+footer h4 {
+  color: #919496;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+footer .navbar-nav a {
+  color: white;
+  font-size: 0.8em;
+}
+footer .navbar-nav a:hover {
+  color: #1ED760;
+}
+footer ul {
+  list-style: none;
+}
+footer ul li {
+  float: right;
+  padding: 0 7px;
+}
+
 /*Media queries*/
 @media (max-width: 575.98px) {
   .btn-custom {
